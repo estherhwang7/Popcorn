@@ -4,7 +4,11 @@ public class Main {
     
     MasterList popcorn2023 = new MasterList();
     popcorn2023.addOrder(new PopcornOrder("Jalapeno Cheese", 1));
-    popcorn2023.addOrder(new PopcornOrder("Butter Microwave", 3), PopcornOrder("ButterMicrowave",2), PopcornOrder("Caramel with Sea Salt", 2), PopcornOrder("Caramel with Sea Salt",5), PopcornOrder("Kettle Corn",4)};
+    popcorn2023.addOrder(new PopcornOrder("Butter Microwave", 3));
+    popcorn2023.addOrder(new PopcornOrder("ButterMicrowave",2));
+    popcorn2023.addOrder(new PopcornOrder("Caramel with Sea Salt", 2));
+    popcorn2023.addOrder(new PopcornOrder("Caramel with Sea Salt",5));
+    popcorn2023.addOrder(new PopcornOrder("Kettle Corn",4));
     System.out.println(popcorn2023.toString());
     System.out.println(popcorn2023.getTotalOrders());
     System.out.println(popcorn2023.removeVariety("Butter Microwave"));
